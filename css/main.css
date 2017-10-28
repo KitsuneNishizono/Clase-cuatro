@@ -2,8 +2,19 @@ body {
 	background-color: #2E112D;
 }
 table {
+	width: 100%;
 	background-color: #C9283E;
 }
 thead {
 	background-color: #820333;
+	color: white;
+}
+tbody tr:nth-child(odd){
+	background-color: #540032;
+}
+th:nth-child(even){
+	background-color: #A80063;
+}
+tbody tr:nth-child(odd) a{
+	color: grey;
 }
